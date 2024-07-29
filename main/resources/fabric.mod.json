@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "createlaglessstonegens",
+	"version": "${version}",
+	"name": "Create: Lagless Stonegens",
+	"description": "Mod that makes Create Mod stone gens lagless in a balanced way!",
+	"authors": [
+		"DonBarz"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/createlaglessstonegens/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.donbarz.createlaglessstonegens.CreateLaglessStoneGens"
+		],
+		"client": [
+			"net.donbarz.createlaglessstonegens.CreateLaglessStoneGensClient"
+		],
+		"fabric-datagen": [
+			"net.donbarz.createlaglessstonegens.CreateLaglessStoneGensDataGenerator"
+		]
+	},
+	"mixins": [
+		"createlaglessstonegens.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"create": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

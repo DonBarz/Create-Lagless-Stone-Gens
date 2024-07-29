@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "createlaglessstonegens:block/stone_gen"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " CCC ",
+    "CGSGC",
+    "PDMDP",
+    "CVVVC",
+    " CCC "
+  ],
+  "key": {
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    },
+    "V": {
+      "item": "create:item_vault"
+    },
+    "G": {
+      "item": "create:gantry_carriage"
+    },
+    "S": {
+      "item": "create:gantry_shaft"
+    },
+    "P": {
+      "item": "create:mechanical_pump"
+    },
+    "D": {
+      "item": "create:mechanical_drill"
+    }
+  },
+  "result": {
+    "item": "createlaglessstonegens:stone_gen"
+  }
+}
